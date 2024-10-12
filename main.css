@@ -1,7 +1,13 @@
 #title{
     text-align: center;
-    color: black;
+    color: orange;
+
     text-shadow: 1px;
+    font-weight: 10000px;
     text-decoration: wavy;
-    background-image: ;
+    background-image: url(backgroundTitle.jpg);
+    padding: 20px;
+
+    
+
 }
