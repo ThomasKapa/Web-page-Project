@@ -8,6 +8,12 @@
     background-image: url(backgroundTitle.jpg);
     padding: 20px;
 
-    
+}
 
+#Under-title {
+    text-align: center;
+}
+
+#small-paragraph{
+    text-align: center;
 }
