@@ -1,11 +1,9 @@
 #title{
     text-align: center;
-    color: orange;
-
+    color:black;
     text-shadow: 1px;
     font-weight: 10000px;
     text-decoration: wavy;
-    background-image: url(backgroundTitle.jpg);
     padding: 20px;
 
 }
@@ -16,4 +14,34 @@
 
 #small-paragraph{
     text-align: center;
+}
+
+body {
+    background-image: url(homepage.webp);
+    background-position: -30% -30%;
+    background-repeat: no-repeat; 
+    background-size: cover;
+}
+#Contact{
+background-color: orange; /* Orange background */
+color: black; /* Black text */
+padding: 10px 20px; /* Padding for a better button appearance */
+text-decoration: none; /* Removes underline */
+border-radius: 12px; /* Rounded corners */
+            font-size: 16px; /* Adjust text size */
+            display: inline-block; /* Makes it behave like a button */
+            border: none; /* Removes any default border */
+            cursor: pointer; /* Adds a pointer cursor on hover */
+}
+
+#Shop{
+    background-color: orange; /* Orange background */
+color: black; /* Black text */
+padding: 10px 20px; /* Padding for a better button appearance */
+text-decoration: none; /* Removes underline */
+border-radius: 12px; /* Rounded corners */
+            font-size: 16px; /* Adjust text size */
+            display: inline-block; /* Makes it behave like a button */
+            border: none; /* Removes any default border */
+            cursor: pointer; /* Adds a pointer cursor on hover */
 }
