@@ -2,7 +2,7 @@
     text-align: center;
     color:black;
     text-shadow: 1px;
-    font-weight: 10000px;
+    font-weight: 100000px;
     text-size-adjust: 150%;
     text-decoration: wavy;
     padding: 20px;
@@ -10,7 +10,7 @@
     background: linear-gradient(to right, yellow, orange,rgb(101, 235, 10), red,rgb(247, 116, 249),magenta ); /* Multicolor gradient */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    text-shadow: 0 0 80px rgba(255, 255, 255, 0.8);
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.913);
 
 }
 
@@ -22,32 +22,29 @@
     text-align: center;
 }
 
-body {
+#bodyHomePage {
     background-image: url(homepage.webp);
     background-position: -30% -30%;
     background-repeat: no-repeat; 
     background-size: cover;
 }
-#Contact{
+.button{
 background-color: orange; /* Orange background */
 color: black; /* Black text */
 padding: 10px 20px; /* Padding for a better button appearance */
 text-decoration: none; /* Removes underline */
 border-radius: 12px; /* Rounded corners */
-            font-size: 16px; /* Adjust text size */
-            display: inline-block; /* Makes it behave like a button */
-            border: none; /* Removes any default border */
-            cursor: pointer; /* Adds a pointer cursor on hover */
+font-size: 16px; /* Adjust text size */
+display: inline-block; /* Makes it behave like a button */
+border: none; /* Removes any default border */
+cursor: pointer; /* Adds a pointer cursor on hover */
+margin-left: 10px;
 }
 
-#Shop{
-    background-color: orange; /* Orange background */
-color: black; /* Black text */
-padding: 10px 20px; /* Padding for a better button appearance */
-text-decoration: none; /* Removes underline */
-border-radius: 12px; /* Rounded corners */
-            font-size: 16px; /* Adjust text size */
-            display: inline-block; /* Makes it behave like a button */
-            border: none; /* Removes any default border */
-            cursor: pointer; /* Adds a pointer cursor on hover */
+
+
+.header{
+display: flex; /* Flexbox layout */
+justify-content: space-between; /* Adjusts spacing between items */
+align-items: center; /* Vertically center items */
 }

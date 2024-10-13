@@ -1,0 +1,85 @@
+.button{
+    background-color: orange; /* Orange background */
+    color: black; /* Black text */
+    padding: 10px 20px; /* Padding for a better button appearance */
+    text-decoration: none; /* Removes underline */
+    border-radius: 12px; /* Rounded corners */
+    font-size: 16px; /* Adjust text size */
+    display: inline-block; /* Makes it behave like a button */
+    border: none; /* Removes any default border */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    margin-left: 10px;
+    }
+
+
+    #title{
+        text-align: center;
+        color:black;
+        text-shadow: 1px;
+        font-weight: 100000px;
+        text-size-adjust: 150%;
+        text-decoration: wavy;
+        padding: 20px;
+        background-clip: text;
+        font-family: 'Arial', sans-serif;
+        
+    }
+
+    #submitButton{
+    display: inline-block; /* Makes it behave like a button */
+    border: none; /* Removes any default border */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    margin-left: 10px;
+    color: black;
+    align-content: center;
+    
+    
+    }
+    body{
+    background-image: url(baner.jpg);
+    background-size: cover;
+    background-attachment: fixed; /* Keeps the image fixed while scrolling */
+    height: 100vh; 
+    position: relative;  
+    }
+
+    .form {
+        position: center;
+        background-color: rgba(255, 255, 255, 0.85); 
+        padding: 20px;
+        border-radius: 10px;
+    
+    }
+
+    .form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+        color: #333;
+    }
+
+    .form input, .form textarea {
+        width: 100%;
+        padding: 10px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        position: center;
+    }
+
+    .form button {
+        background-color: orange;
+        color: black;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        width: 100%;
+        font-size: 16px;
+        position: center;
+    }
+
+    .form button:hover {
+        background-color: darkorange;
+    }
+
+  
