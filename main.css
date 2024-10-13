@@ -3,8 +3,14 @@
     color:black;
     text-shadow: 1px;
     font-weight: 10000px;
+    text-size-adjust: 150%;
     text-decoration: wavy;
     padding: 20px;
+    background-clip: text;
+    background: linear-gradient(to right, yellow, orange,rgb(101, 235, 10), red,rgb(247, 116, 249),magenta ); /* Multicolor gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: 0 0 80px rgba(255, 255, 255, 0.8);
 
 }
 
