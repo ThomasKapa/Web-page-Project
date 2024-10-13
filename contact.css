@@ -10,6 +10,9 @@
     cursor: pointer; /* Adds a pointer cursor on hover */
     margin-left: 10px;
     }
+    .button:hover{
+        background-color: lightcoral;
+    }
 
 
     #title{
@@ -26,9 +29,9 @@
     }
 
     #submitButton{
-    display: inline-block; /* Makes it behave like a button */
-    border: none; /* Removes any default border */
-    cursor: pointer; /* Adds a pointer cursor on hover */
+    display: inline-block; 
+    border: none; 
+    cursor: pointer; 
     margin-left: 10px;
     color: black;
     align-content: center;

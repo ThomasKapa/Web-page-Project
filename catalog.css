@@ -1,0 +1,46 @@
+.button{
+    background-color: orange; /* Orange background */
+    color: black; /* Black text */
+    padding: 10px 20px; /* Padding for a better button appearance */
+    text-decoration: none; /* Removes underline */
+    border-radius: 12px; /* Rounded corners */
+    font-size: 16px; /* Adjust text size */
+    display: inline-block; /* Makes it behave like a button */
+    border: none; /* Removes any default border */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    margin-left: 10px;
+    }
+    .button:hover{
+        background-color: lightgreen;
+    }
+
+    body{
+        background-image: url(2138748.webp);
+        background-attachment: fixed;
+    }
+
+    body h2{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        
+    }
+
+    .merchbutton{
+        background-color: cornflowerblue;
+        color: black;
+        padding: 10px 20px;
+        border-radius: 30px;
+        font-size: 12px;
+        display: inline-block;
+        border: none;
+    }
+
+    .merchbutton:hover{
+        background-color: lightsalmon;
+        cursor: pointer;
+    }
+
+    body img {
+        width: 150px;
+        height: 180px;
+
+    }
