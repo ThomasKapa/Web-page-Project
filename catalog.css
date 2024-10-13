@@ -21,6 +21,7 @@
 
     body h2{
         font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: xxx-large;
         
     }
 
@@ -43,4 +44,41 @@
         width: 150px;
         height: 180px;
 
+    }
+
+    ul li {
+        display:flex;
+        align-items: center;
+        justify-content:flex-start;
+        padding: 10px 0;
+        list-style-type: none;
+        margin-bottom: 20px;
+    }
+
+    ul li img {
+margin-right: 150px;
+margin-left: 100px;
+    }
+
+    .merchimg {
+        margin: 0 20px;
+    }
+
+    #poster {
+        margin-left: -25px;
+        margin-right: 40px;
+    }
+
+    #cheerfull{
+        margin-left: 80px;
+        margin-right: 150px;
+    }
+
+    #quick {
+        margin-left: 50px;
+        margin-right: 150px;
+    }
+
+    #muddle{
+        margin-right: 140px;
     }
