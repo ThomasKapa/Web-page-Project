@@ -17,11 +17,9 @@
 
     #title{
         text-align: center;
-        color:black;
+        color:deeppink;
         text-shadow: 1px;
-        font-weight: 100000px;
-        text-size-adjust: 150%;
-        text-decoration: wavy;
+        font-size: 45px;
         padding: 20px;
         background-clip: text;
         font-family: 'Arial', sans-serif;
@@ -47,21 +45,18 @@
     }
 
     .form {
-        position: center;
-        background-color: rgba(255, 255, 255, 0.85); 
+        background-color: rgba(255, 255, 255, 0.00); 
         padding: 20px;
         border-radius: 10px;
+        width: 100vh;
+        position: center;
+        margin-left: auto ;
+        margin-right: auto;
     
     }
 
-    .form h2 {
-        text-align: center;
-        margin-bottom: 20px;
-        color: #333;
-    }
-
     .form input, .form textarea {
-        width: 100%;
+        width: 95vh;
         padding: 10px;
         margin: 10px 0;
         border-radius: 5px;
@@ -84,5 +79,7 @@
     .form button:hover {
         background-color: darkorange;
     }
+
+    
 
   

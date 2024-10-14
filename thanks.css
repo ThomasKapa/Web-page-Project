@@ -1,0 +1,25 @@
+.button{
+    background-color: orange; /* Orange background */
+    color: black; /* Black text */
+    padding: 10px 20px; /* Padding for a better button appearance */
+    text-decoration: none; /* Removes underline */
+    border-radius: 12px; /* Rounded corners */
+    font-size: 16px; /* Adjust text size */
+    display: inline-block; /* Makes it behave like a button */
+    border: none; /* Removes any default border */
+    cursor: pointer; /* Adds a pointer cursor on hover */
+    margin-left: 10px;
+    }
+    .button:hover{
+        background-color: lightcoral;
+    }
+
+    body{
+        background-image: url(./thanks.jpg);
+        background-repeat: no-repeat;
+        background-size:90em;
+        background-attachment: fixed;
+        background-position: center;
+        
+    }
+

@@ -1,84 +1,101 @@
-.button{
-    background-color: orange; /* Orange background */
-    color: black; /* Black text */
-    padding: 10px 20px; /* Padding for a better button appearance */
-    text-decoration: none; /* Removes underline */
-    border-radius: 12px; /* Rounded corners */
-    font-size: 16px; /* Adjust text size */
-    display: inline-block; /* Makes it behave like a button */
-    border: none; /* Removes any default border */
-    cursor: pointer; /* Adds a pointer cursor on hover */
+.button {
+    background-color: orange;
+    /* Orange background */
+    color: black;
+    /* Black text */
+    padding: 10px 20px;
+    /* Padding for a better button appearance */
+    text-decoration: none;
+    /* Removes underline */
+    border-radius: 12px;
+    /* Rounded corners */
+    font-size: 16px;
+    /* Adjust text size */
+    display: inline-block;
+    /* Makes it behave like a button */
+    border: none;
+    /* Removes any default border */
+    cursor: pointer;
+    /* Adds a pointer cursor on hover */
     margin-left: 10px;
-    }
-    .button:hover{
-        background-color: lightgreen;
-    }
+}
 
-    body{
-        background-image: url(2138748.webp);
-        background-attachment: fixed;
-    }
+.button:hover {
+    background-color: lightgreen;
+}
 
-    body h2{
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: xxx-large;
-        
-    }
+body {
+    background-image: url(2138748.webp);
+    background-attachment: fixed;
+}
 
-    .merchbutton{
-        background-color: cornflowerblue;
-        color: black;
-        padding: 10px 20px;
-        border-radius: 30px;
-        font-size: 12px;
-        display: inline-block;
-        border: none;
-    }
+body h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xxx-large;
+    text-align: center;
+    color:deeppink;
 
-    .merchbutton:hover{
-        background-color: lightsalmon;
-        cursor: pointer;
-    }
+}
 
-    body img {
-        width: 150px;
-        height: 180px;
+.merchbutton {
+    background-color: cornflowerblue;
+    color: black;
+    padding: 10px 20px;
+    border-radius: 30px;
+    font-size: 12px;
+    display: inline-block;
+    border: none;
+    text-decoration: none;
+}
 
-    }
+.merchbutton:hover {
+    background-color: deeppink;
+    cursor: pointer;
+}
 
-    ul li {
-        display:flex;
-        align-items: center;
-        justify-content:flex-start;
-        padding: 10px 0;
-        list-style-type: none;
-        margin-bottom: 20px;
-    }
+body img {
+    width: 150px;
+    height: 180px;
 
-    ul li img {
-margin-right: 150px;
-margin-left: 100px;
-    }
+}
 
-    .merchimg {
-        margin: 0 20px;
-    }
+ul li {
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding: 10px 0;
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-weight:bold;
+    font-size: medium;
+    
+}
 
-    #poster {
-        margin-left: -25px;
-        margin-right: 40px;
-    }
+ul li img {
+    margin-right: 150px;
+    margin-left: 100px;
+}
 
-    #cheerfull{
-        margin-left: 80px;
-        margin-right: 150px;
-    }
+.merchimg {
+    margin: 0 20px;
+}
 
-    #quick {
-        margin-left: 50px;
-        margin-right: 150px;
-    }
+#poster {
+    margin-left: -25px;
+    margin-right: 40px;
+}
 
-    #muddle{
-        margin-right: 140px;
-    }
+#cheerfull {
+    margin-left: 80px;
+    margin-right: 150px;
+}
+
+#quick {
+    margin-left: 50px;
+    margin-right: 150px;
+}
+
+#muddle {
+    margin-right: 140px;
+}
+
